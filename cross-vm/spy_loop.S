@@ -1,21 +1,19 @@
 /*This file was generated with parameters: Cache size: 32768bytes, Cache line size: 64 bytes and cache associativity: 8*/
 
-/* AUTOMATICALLY GENERATED */
 #include "asm_defines.h"
 #include "types.h"
 
 .text
 .globl spy_loop_abs
 
-/* void spy_loop_abs(  abs_t * raw_timings, unsigned long N) */
+/* void spy_loop_abs(uint32_t * raw_timings, unsigned long N) */
 
 spy_loop_abs:
 
-	/* %eax will be loaded with the buffer address. */
+	/* %rdi will be loaded with the buffer address. (raw_timings)*/
+        /*%rsi will be loaded with the ROUNDS (N)*/
 	push %rbp
 	mov %rsp, %rbp
-        //xor %edi, %edi
-        //inc %edi
 	mov %rsi, %rax
 	mov $CACHE_SETS, %rdx
 	mul %rdx
@@ -2911,5 +2909,3 @@ END:
 	/* EPILOG */
 	mov %rbp, %rsp
 	pop %rbp
-	#leave
-	#ret
