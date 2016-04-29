@@ -9,12 +9,7 @@
 extern "C" {
 #endif
 
-
-/** 
- * raw_timings must be of size: CACHE_SETS*N + 1.
-*/
 void SSTD_API spy_loop_abs( uint32_t * raw_timings, unsigned long N);
-
 
 #ifdef __cplusplus 
 };
