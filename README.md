@@ -1,4 +1,4 @@
-# Cross VM Side Channel Attack using L1 Instrction Cache
+# Cross VM Side Channel Attack using L1 I-Cache
 
 #### Checking out repository
 
