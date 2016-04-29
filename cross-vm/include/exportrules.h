@@ -1,5 +1,8 @@
 #pragma once
 
+/*This header file has been adapted from the source of
+http://daim.idi.ntnu.no/masteroppgaver/009/9231/vedlegg.zip*/
+
 // Generic helper definitions for shared library support
 #if defined _WIN32 || defined __CYGWIN__
   #define SSTD_HELPER_DLL_IMPORT __declspec(dllimport)
