@@ -35,11 +35,11 @@
 
 1. libsync library requires label file location. Environment variable LABEL_FILE should be set first.
 
-`$ export LABEL_FILE=<location of the file>`
+  `$ export LABEL_FILE=<location of the file>`
 
 2. Run the spy binary
 
-`$ ./spy`
+  `$ ./spy`
 
 This will generate a label file as per specified, also a binary file namee 'timings.bin' in the current directory.
 
