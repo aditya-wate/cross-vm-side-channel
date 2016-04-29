@@ -47,4 +47,4 @@ The number of times the spy needs to be executed should be set in measurement.c.
 
 Northeastern University, 2015.
 
-The header files in cross-vm/include has been reused from a similar paper for ARM architecture(http://daim.idi.ntnu.no/masteroppgaver/009/9231/masteroppgave.pdf).
+Note: The header files in cross-vm/include has been reused from a similar paper for ARM architecture(http://daim.idi.ntnu.no/masteroppgaver/009/9231/masteroppgave.pdf).
