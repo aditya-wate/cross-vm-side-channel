@@ -41,7 +41,7 @@
 
   `$ ./spy`
 
-This will generate a label file as per specified, also a binary file namee 'timings.bin' in the current directory.
+This will generate a label file as specified in step 1, also a binary file namee 'timings.bin' in the current directory.
 
 The number of times the spy needs to be executed should be set in measurement.c. Change the value of const int n on line # 11 to the number of times the prime and probe process needs to be executed. Change the value of op->e on line # 68 to change the exponent value.
 
