@@ -1,4 +1,4 @@
-/*This file was generated with parameters: Cache size: 32768bytes, Cache line size: 64 bytes and cache associativity: 8*/
+/* Cache size: 32768bytes, Cache line size: 64 bytes and cache associativity: 8*/
 
 #include "asm_defines.h"
 #include "types.h"
@@ -11,7 +11,7 @@
 spy_loop_abs:
 
 	/* %rdi will be loaded with the buffer address. (raw_timings)*/
-        /*%rsi will be loaded with the ROUNDS (N)*/
+        /* %rsi will be loaded with the ROUNDS (N) */
 	push %rbp
 	mov %rsp, %rbp
 	mov %rsi, %rax
@@ -2901,6 +2901,7 @@ L511:
 	movb %al, (%rcx, %rdi)
 	add %rax, %rsi
 	inc %rdi
+	/* Check if allocated size is greater than N */
 	cmp %r10, %rdi
 	jge END
 	jmp L0
