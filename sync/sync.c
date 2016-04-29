@@ -23,16 +23,7 @@ bool writelabelm() {
     	printf("Error opening file!\n");
     	exit(1);
     }    
-/*
-    while (ptr < ptr + n) {
-        int ret = fprintf(f,"%s\n",ptr);
-        if (ret <= 0) {
-            fprintf(stderr, "unable to write");
-            return false;
-        }
 
-        ptr += ret;
-    } */
     int ret = fprintf(f,"%c\n",m);
     if (ret <= 0) {
     	fprintf(stderr, "unable to write");
@@ -61,16 +52,7 @@ bool writelabels() {
     	printf("Error opening file!\n");
     	exit(1);
     }    
-/*
-    while (ptr < ptr + n) {
-        int ret = fprintf(f,"%s\n",ptr);
-        if (ret <= 0) {
-            fprintf(stderr, "unable to write");
-            return false;
-        }
 
-        ptr += ret;
-    } */
     int ret = fprintf(f,"%c\n",s);
     if (ret <= 0) {
     	fprintf(stderr, "unable to write");
@@ -99,16 +81,7 @@ bool writelabelr() {
     	printf("Error opening file!\n");
     	exit(1);
     }    
-/*
-    while (ptr < ptr + n) {
-        int ret = fprintf(f,"%s\n",ptr);
-        if (ret <= 0) {
-            fprintf(stderr, "unable to write");
-            return false;
-        }
 
-        ptr += ret;
-    } */
     int ret = fprintf(f,"%c\n",r);
     if (ret <= 0) {
     	fprintf(stderr, "unable to write");
