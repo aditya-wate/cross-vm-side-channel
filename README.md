@@ -45,6 +45,6 @@ This will generate a label file as specified in step 1, also a binary file namee
 
 The number of times the spy needs to be executed should be set in measurement.c. Change the value of const int n on line # 11 to the number of times the prime and probe process needs to be executed. Change the value of op->e on line # 68 to change the exponent value.
 
-This code is based on the research done under the heading 'Cross-VM side channels and their use to extract private keys' (http://dl.acm.org/citation.cfm?doid=2382196.2382230).
+Northeastern University, 2015.
 
 The header files in cross-vm/include has been reused from a similar paper for ARM architecture(http://daim.idi.ntnu.no/masteroppgaver/009/9231/masteroppgave.pdf).
